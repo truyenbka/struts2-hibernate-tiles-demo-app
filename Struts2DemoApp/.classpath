@@ -13,37 +13,170 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/antlr-2.7.7.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/asm-3.3.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/asm-commons-3.3.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/asm-tree-3.3.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/commons-collections-3.1.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/commons-fileupload-1.2.2.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/commons-io-2.0.1.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/commons-lang-2.5.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/commons-logging-1.1.1.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/commons-logging-api-1.1.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/dom4j-2.0.0-ALPHA-2.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/freemarker-2.3.18.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/javassist-3.15.0-GA.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/jta-1.1.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/log4j-1.2.16.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/mysql-connector-java-5.1.19-bin.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/ognl-3.0.4.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/slf4j-api-1.6.4.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/slf4j-log4j12-1.6.4.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/struts2-convention-plugin-2.3.1.2.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/struts2-core-2.3.1.2.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/struts2-dojo-plugin-2.3.1.2.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/xwork-core-2.3.1.2.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/hibernate-validator-annotation-processor-4.2.0.Final.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/jboss-logging-3.1.0.GA.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/ejb3-persistence.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/hibernate-annotations.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/hibernate-commons-annotations.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/hibernate-validator.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/struts2-fullhibernatecore-plugin-1.4-GA.jar"/>
-	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/hibernate3.jar"/>
+	<classpathentry kind="lib" path="libs/antlr-2.7.7.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/asm-3.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/asm-commons-3.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/asm-tree-3.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/commons-collections-3.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/commons-fileupload-1.2.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/commons-io-2.0.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/commons-lang-2.5.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/commons-logging-1.1.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/commons-logging-api-1.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/dom4j-2.0.0-ALPHA-2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/ejb3-persistence.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/freemarker-2.3.18.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/hibernate-annotations.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/hibernate-commons-annotations.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/hibernate-jpa-2.0-api-1.0.1.Final.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/hibernate-validator-annotation-processor-4.2.0.Final.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/hibernate-validator.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/hibernate3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/hsqldb.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/javassist-3.15.0-GA.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/jboss-logging-3.1.0.GA.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/jta-1.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/log4j-1.2.16.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/mysql-connector-java-5.1.19-bin.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/ognl-3.0.4.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/slf4j-api-1.6.4.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/slf4j-log4j12-1.6.4.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/struts2-convention-plugin-2.3.1.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/struts2-core-2.3.1.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/struts2-dojo-plugin-2.3.1.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/struts2-fullhibernatecore-plugin-1.4-GA.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/xwork-core-2.3.1.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
