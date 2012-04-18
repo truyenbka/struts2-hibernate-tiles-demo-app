@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-6-sun-1.6.0.26">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/asm-3.3.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/asm-commons-3.3.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/asm-tree-3.3.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/commons-fileupload-1.2.2.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/commons-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/commons-logging-api-1.1.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/dom4j-2.0.0-ALPHA-2.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/freemarker-2.3.18.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/javassist-3.15.0-GA.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/mysql-connector-java-5.1.19-bin.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/ognl-3.0.4.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/slf4j-api-1.6.4.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/slf4j-log4j12-1.6.4.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/struts2-convention-plugin-2.3.1.2.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/struts2-core-2.3.1.2.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/struts2-dojo-plugin-2.3.1.2.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/xwork-core-2.3.1.2.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/hibernate-validator-annotation-processor-4.2.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/jboss-logging-3.1.0.GA.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/ejb3-persistence.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/hibernate-annotations.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/hibernate-commons-annotations.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/hibernate-validator.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/struts2-fullhibernatecore-plugin-1.4-GA.jar"/>
+	<classpathentry kind="lib" path="/home/asanka/workspace/Helios/Struts2DemoApp/libs/hibernate3.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
