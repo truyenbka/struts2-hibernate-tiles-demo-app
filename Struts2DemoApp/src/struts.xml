@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC 
+	"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+	"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<constant name="struts.devMode" value="true"></constant>
+	<package name="default" extends="struts-default">
+
+		<!-- Registering interceptor -->
+		<interceptors>
+			<interceptor name="myinterceptor" class="org.demo.interceptors.MyInterceptor" />
+		</interceptors>
+
+		<!-- setting index.jsp as an action -->
+		<action name="index">
+			<result>/index.jsp</result>
+		</action>
+
+
+		<action name="HelloWorld" class="org.demo.action.DemoAction">
+			<interceptor-ref name="params" />
+			<interceptor-ref name="timer" />
+			<result name="SUCCESS">/success.jsp</result>
+		</action>
+
+		<!-- Action which is using interceptors -->
+		<action name="hello" class="org.demo.action.DemoAction2"
+			method="execute">
+			<interceptor-ref name="params" />
+			<interceptor-ref name="myinterceptor" />
+			<result name="SUCCESS">/HelloWorld.jsp</result>
+		</action>
+	</package>
+
+	<!-- Package for hibernate example -->
+	<package name="hibernateExample" extends="hibernate-default">
+
+		<action name="addEmployee" method="execute"
+			class="org.demo.action.AddEmployeeAction">
+			<result name="SUCCESS" type="redirect">listEmployees</result>
+		</action>
+
+		<action name="listEmployees" method="listEmployees"
+			class="org.demo.action.AddEmployeeAction">
+			<result name="SUCCESS">/employee.jsp</result>
+		</action>
+
+	</package>
+</struts>
