@@ -1,0 +1,1 @@
+Example application to understand struts2, hibernate, struts2-hibernate integration, struts2-tiles integration
